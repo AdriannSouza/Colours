@@ -1,5 +1,82 @@
+/* Source Sans */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+/* Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+main {
+  height: 80vh;
+}
+main .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.7em;
+  border: 0.5px solid black;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2196078431);
+}
+main .message .my_name {
+  color: #3E47CB;
+}
+main .message .devweb {
+  font-family: "Source Sans Pro", sans-serif;
+}
+main .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2em;
+  padding: 25px;
+  margin-top: 40px;
+}
+main .about_p {
+  width: 300px;
+  line-height: 1.5em;
+}
+
+/* Source Sans */
+/* Raleway */
+/* Source Sans */
+/* Raleway */
+header {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  border: 1px solid black;
+  color: #FAFAFA;
+  background-color: #242121;
+}
+header nav {
+  width: 50%;
+}
+header .l_nav {
+  display: flex;
+  align-items: center;
+}
+header .l_nav i {
+  padding: 10px;
+}
+header .l_nav i .a_icon {
+  width: 45px;
+  height: 45px;
+}
+header .r_nav {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 30px;
+  padding: 25px;
+}
+header .r_nav .nav_link {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
 * {
   margin: 0;
   padding: 0;

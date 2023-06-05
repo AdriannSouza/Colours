@@ -1,0 +1,31 @@
+@import _mixins
+
+header
+    display: flex
+    font-family: $fonte
+    border: 1px solid black
+    color: #FAFAFA
+    background-color: #242121
+
+    nav
+        width: 50%
+
+    .l_nav
+        display: flex
+        align-items: center
+        i
+            padding: 10px
+            .a_icon
+                width: 45px
+                height: 45px
+
+    .r_nav
+        display: flex
+        justify-content: end
+        list-style: none
+        gap: 30px
+        padding: 25px
+    
+        .nav_link
+           text-decoration: none
+           color: #FAFAFA

@@ -1,3 +1,28 @@
 @import "_mixins"
 
+main
+    height: 80vh
 
+    .message
+        @include align()
+        flex-direction: column
+        height: 600px
+        font-family: $fonte
+        font-size: 1.7em
+        border: 0.5px solid black
+        box-shadow: 2px 3px 10px #00000038
+
+        .my_name
+            color: #3E47CB
+        .devweb
+            font-family: $fonte
+    
+    .about
+        @include align()
+        flex-direction: column
+        font-size: 1.2em
+        padding: 25px
+        margin-top: 40px
+    .about_p
+        width: 300px
+        line-height: 1.5em
