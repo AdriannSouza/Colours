@@ -28,7 +28,7 @@ main .message .devweb {
 }
 
 .icons {
-  margin-top: 35px;
+  margin-top: 15px;
 }
 .icons .icon {
   width: 50px;
@@ -40,15 +40,11 @@ main .message .devweb {
   align-items: center;
   gap: 5px;
   padding: 8px 22px;
-  margin-top: 38px;
+  margin-top: 68px;
   font-size: 14px;
   color: #fafafa;
-  background-color: #3E47CB;
+  background-color: #242121;
   border-radius: 10px;
-}
-.more .arrow {
-  widows: 25px;
-  height: 25px;
 }
 
 /* Source Sans */
