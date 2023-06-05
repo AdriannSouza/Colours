@@ -1,0 +1,9 @@
+@import "partials/_mainpage";
+@import "partials/_mixins";
+@import "partials/_navbar";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $fonte;
+}
