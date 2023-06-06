@@ -27,24 +27,31 @@ main .message .devweb {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.icons {
-  margin-top: 15px;
-}
-.icons .icon {
-  width: 50px;
-  height: 50px;
-}
-
 .more {
   display: flex;
   align-items: center;
   gap: 5px;
   padding: 8px 22px;
-  margin-top: 68px;
+  margin-top: 28px;
   font-size: 14px;
-  color: #fafafa;
-  background-color: #242121;
+  background-color: #3E47CB;
   border-radius: 10px;
+}
+.more a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+footer .icon {
+  width: 50px;
+  height: 50px;
 }
 
 /* Source Sans */
