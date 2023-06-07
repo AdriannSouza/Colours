@@ -1,0 +1,26 @@
+@import "_mixins"
+
+main
+    display: flex
+    flex-direction: column
+    height: fit-content
+
+    .message
+        @include align()
+        flex-direction: column
+        height: 86vh
+        font-family: $fonte
+        font-size: 1.7em
+        .my_name
+            color: #3E47CB
+        .devweb
+            font-family: $fonte
+
+    .icons_group
+        gap: 20px
+        margin-top: 25px  
+        .icon
+            width: 50px
+            height: 50px
+
+    

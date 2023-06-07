@@ -1,40 +1,60 @@
 @import "_mixins"
 
 main
-    height: 86vh
-
-    .message
-        @include align()
-        flex-direction: column
-        height: 100%
-        font-family: $fonte
-        font-size: 1.7em
-        border: 0.5px solid black
-        box-shadow: 2px 3px 10px #00000038
-
-        .my_name
-            color: #3E47CB
-        .devweb
-            font-family: $fonte
-
-.more
-    display: flex
-    align-items: center
-    gap: 5px
-    padding: 8px 22px
-    margin-top: 28px
-    font-size: 14px
-    background-color: #3E47CB
-    border-radius: 10px
-    a
-        text-decoration: none
-        color: #FAFAFA
-
-footer
     @include align()
-    height: fit-content
-    .icon
-        width: 50px
-        height: 50px
 
-    
+/* FIRST SECTION */
+.about_sec
+    @include align()
+    flex-direction: column
+    max-width: 700px
+    font-size: 1.2em
+    line-height: 1.5em
+    margin-top: 5vh
+
+    .about_div
+        width: 80%
+        display: flex
+        flex-direction: column
+        gap: 20px
+        padding: 20px
+        
+    .about_me, .about_skills
+        max-width: 450px
+
+/* SECOND SECTION */
+.skills_sec
+    @include align()
+    flex-direction: column
+    gap: 15px
+    width: 100%
+    margin-top: 20px
+    margin: 40px 0px
+
+    /* OUTSIDE TITLE */
+    h2.skills_title
+        width: 80%
+        font-size: 28.8px
+        padding: 10px 20px
+
+    /* EACH LIST */
+    div.skills_list
+        display: flex
+        flex-direction: column
+        gap: 10px
+        width: 80%
+        max-width: 300px
+        padding: 20px
+        list-style: none
+        line-height: 1.6em
+        /**/
+        border: 1px solid black
+        border-radius: 8px
+        h3.list_title
+            display: flex
+            justify-items: center
+            align-items: center
+
+        .skills_icon
+            width: 25px
+            height: 25px

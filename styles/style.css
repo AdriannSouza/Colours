@@ -2,62 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 /* Raleway */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+/* Source Sans */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+/* Raleway */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
-main {
-  height: 86vh;
-}
-main .message {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.7em;
-  border: 0.5px solid black;
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2196078431);
-}
-main .message .my_name {
-  color: #3E47CB;
-}
-main .message .devweb {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.more {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 8px 22px;
-  margin-top: 28px;
-  font-size: 14px;
-  background-color: #3E47CB;
-  border-radius: 10px;
-}
-.more a {
-  text-decoration: none;
-  color: #FAFAFA;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-footer .icon {
-  width: 50px;
-  height: 50px;
-}
-
-/* Source Sans */
-/* Raleway */
-/* Source Sans */
-/* Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 header, footer {
   display: flex;
   align-items: center;
@@ -66,6 +18,7 @@ header, footer {
   color: #FAFAFA;
   background-color: #242121;
   height: 7vh;
+  width: 100vw;
 }
 header nav, footer nav {
   width: 50%;
@@ -78,8 +31,8 @@ header .l_nav i, footer .l_nav i {
   padding: 10px;
 }
 header .l_nav i .a_icon, footer .l_nav i .a_icon {
-  width: 45px;
-  height: 45px;
+  width: 43px;
+  height: 43px;
 }
 header .r_nav, footer .r_nav {
   display: flex;
@@ -91,6 +44,109 @@ header .r_nav, footer .r_nav {
 header .r_nav .nav_link, footer .r_nav .nav_link {
   text-decoration: none;
   color: #FAFAFA;
+}
+
+/* Source Sans */
+/* Raleway */
+main {
+  display: flex;
+  flex-direction: column;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 86vh;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.7em;
+}
+main .message .my_name {
+  color: #3E47CB;
+}
+main .message .devweb {
+  font-family: "Source Sans Pro", sans-serif;
+}
+main .icons_group {
+  gap: 20px;
+  margin-top: 25px;
+}
+main .icons_group .icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Source Sans */
+/* Raleway */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FIRST SECTION */
+.about_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 700px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 5vh;
+}
+.about_sec .about_div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.about_sec .about_me, .about_sec .about_skills {
+  max-width: 450px;
+}
+
+/* SECOND SECTION */
+.skills_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+  margin: 40px 0px;
+  /* OUTSIDE TITLE */
+  /* EACH LIST */
+}
+.skills_sec h2.skills_title {
+  width: 80%;
+  font-size: 28.8px;
+  padding: 10px 20px;
+}
+.skills_sec div.skills_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  max-width: 300px;
+  padding: 20px;
+  list-style: none;
+  line-height: 1.6em;
+  /**/
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.skills_sec div.skills_list h3.list_title {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.skills_sec div.skills_list .skills_icon {
+  width: 25px;
+  height: 25px;
 }
 
 * {
