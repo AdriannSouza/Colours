@@ -1,33 +1,18 @@
 @import "_mixins"
 
 header,footer
-    display: flex
-    align-items: center
+    @include align()
     font-family: $fonte
     border: 1px solid black
     color: #FAFAFA
     background-color: #242121
-    height: 7vh
     width: 100vw
+    height: 7vh
 
-    nav
-        width: 50%
-
-    .l_nav
-        display: flex
-        align-items: center
-        i
-            padding: 10px
-            .a_icon
-                width: 43px
-                height: 43px
-
-    .r_nav
-        display: flex
-        justify-content: end
+    .navbar
+        @include align()
         list-style: none
         gap: 30px
-        padding: 25px
     
         .nav_link
            text-decoration: none

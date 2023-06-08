@@ -28,7 +28,7 @@ main
     flex-direction: column
     gap: 15px
     width: 100%
-    margin-top: 20px
+    margin-top: 15px
     margin: 40px 0px
 
     /* OUTSIDE TITLE */
@@ -42,19 +42,33 @@ main
         display: flex
         flex-direction: column
         gap: 10px
-        width: 80%
-        max-width: 300px
+        width: 260px
         padding: 20px
-        list-style: none
         line-height: 1.6em
+        list-style: none
         /**/
         border: 1px solid black
         border-radius: 8px
-        h3.list_title
+
+        div.list_header
             display: flex
-            justify-items: center
             align-items: center
+            justify-content: start
+            width: 100%
+
+        h3.list_title
 
         .skills_icon
             width: 25px
             height: 25px
+            justify-self: right
+
+        .exp_arrow
+            display: block
+            width: 18px
+            height: 18px
+            transform: rotate(-90deg)
+            
+        li
+            display: none
+            
