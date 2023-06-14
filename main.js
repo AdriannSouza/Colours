@@ -1,13 +1,13 @@
-const list_itens = document.querySelectorAll('div.skills_list > li')
-console.log(list_itens);
+const exp_arrows = document.querySelectorAll('.exp_arrow');
 
-const exp_arrow = document.querySelectorAll('div.list_header > img.exp_arrow');
-console.log(exp_arrow);
+exp_arrows.forEach(
+    arrow => arrow.addEventListener('click', () => toggleList(arrow.getAttribute('value')))
+);
 
-exp_arrow.forEach( (e) => {
-    e.addEventListener('click', exibirLista(e))
-} )
+function toggleList(listId) {
 
-function exibirLista() {
+    console.log(listId)
+    const list = document.querySelector(`#${listId}`);
+    list.classList.toggle("collapsed");
 
 }
