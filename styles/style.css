@@ -10,6 +10,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 header, footer {
   display: flex;
   justify-content: center;
@@ -153,6 +155,43 @@ main {
 }
 
 /* THIRD SECTION */
+/* Source Sans */
+/* Raleway */
+section.projects_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+section.projects_sec h2 {
+  font-size: 28.8px;
+  width: 80%;
+}
+section.projects_sec div.projects_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  font-size: 19.2px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 25px;
+}
+section.projects_sec div.projects_div div.projects_div_header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+section.projects_sec div.projects_div div.projects_div_header h3.projects_title {
+  font-size: 22.8px;
+}
+section.projects_sec div.projects_div div.projects_div_header img.projects_icon {
+  width: 30px;
+  height: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
